@@ -46,6 +46,8 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+/Assets/Plugins/Editor/Jetbrains/*
+/Assets/Plugins/Editor/Jetbrains.meta
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -70,3 +72,8 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# WebGL Publisher
+/WebGL Builds/**
+connectwebgl.zip
+ProjectSettings/Packages/com.unity.connect.share/Settings.json
